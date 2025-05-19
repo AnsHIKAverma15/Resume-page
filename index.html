@@ -6,9 +6,10 @@
 </head>
 <style>
 
-    body {
-        margin: none;
-        padding: none;
+    body { 
+        color: black;
+        background-color: rgb(177, 177, 177);
+    
     }
 
     .Topic {
@@ -16,6 +17,9 @@
         display:inline;
         justify-content: left;
         align-items: left;
+        position: relative;
+        left: 130px;
+
     }
     
     .box {
@@ -27,43 +31,66 @@
         padding: 15px;
         border-radius: 30px;
         place-items:right;
+        position: relative;
+        left: 600px;
+
 
     }
 
     img {
-        width: 100px;
-        border-radius: 50px;
+        width: 250px;
+        border-radius: 50%;
         float: left;
-        margin-right: 10px;
+        margin-bottom: 20px;
+        margin-left: 100px;
+        margin-top: 40px;
+        margin-right: 20px;
     }
 
     .Profile {
         width: 1000px;
-        height: 100px;
-        padding: 100px;
-        border: 5px solid white;
-        margin: 70px;
+        height: 250px;
+        border: 20px solid white;
+        margin-left: 120px;
+        margin-top: 100px;
         background-color: white;
+        color: black;
+        border-radius: 20px;
+        text-align: center;
+        
 
         
     }
 
+    .profilename{
+        position: relative;
+        left: 0px;
+        top: 35px;
+        border: none;
+        text-align: left;
+
+    }
+
+
+
     .frontier {
-        width: 1200px;
+        width: 1020px;
         height: 400px;
-        padding: 10px;
+        padding: 20px;
         margin: 70px;
         background-color: white;
         float: center;
+        margin-left: 120px;
+        border-radius: 20px;
+        color: black;
     }
 
     .frontierbox {
 
-        width: 200px;
-        height: 150px;
-        padding: 70px;
+        width: 500px;
+        height: 300px;
         margin: auto;
-        background-color:rgb(222, 219, 219);
+        background-color:rgb(248, 246, 246);
         float: left;
 
 
@@ -71,30 +98,29 @@
 
     .frontierbox1 {
 
-        width: 200px;
-        height: 150px;
-        padding: 70px;
+        width: 500px;
+        height: 300px;
         margin: auto;
-        background-color:rgb(222, 219, 219);
+        background-color:rgb(248, 246, 246);
         float: right;
     }
 
     .frontierbox11 {
 
-        width: 150px;
-        height: 100px;
-        margin: 10px;
-        background-color:white;
-        
+        width: 450px;
+        height: 150px;
+        margin: 20px;
+        background-color:rgb(226, 223, 223);
+        font-size: large;
     }
 
     .frontierbox00 {
 
-        width: 150px;
-        height: 100px;
-        padding: 10px;
-        margin: 10px;
-        background-color: white;
+        width: 450px;
+        height: 150px;
+        margin: 20px;
+        background-color: rgb(226, 223, 223);
+        font-size: large;
     }
 
 
@@ -103,61 +129,78 @@
     .Information {
 
         width: 1050px;
-        height: 400px;
-        padding: 10px;
-        margin: 50px;
+        height: 350px;
+        margin-left: 120px;
+        border-radius: 20px;
         background-color: white;
 
 
+    
     }
+    
+    .Contact {
+
+        position: relative;
+        left: 10px;
+    }
+   
 
     .Name {
-         
+
         width: 1000px;
-        margin: 5px;
-        padding: 40px;
-        height: 400px;
-        float: center;
+        margin: 10px;
+        padding: 10px;
+        height: 10px;
+        position: relative;
+        bottom: 15px;
+
     }
 
+    
     .Email {
-         
-        width: 800px;
-        margin: 5px;
-        padding: 30px;
+        
+        width: 1000px;
+        padding: 10px;
+        margin: 10px;
         height: 10px;
-        float: center;
+        position: relative;
+        bottom: 20px;
+
+        
     }
 
     .Message {
-         
-        width: 800px;
-        margin: 5px;
-        padding: 30px;
+        width: 1000px;
+        margin: 10px;
+        padding: 10px;
         height: 100px;
-        float: center;
+        position: relative;
+        bottom: 20px;
+
     }
 
     .Send {
          
         width: 70px;
-        height: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        height: 30px;
+        position: relative;
+        left: 450px;
+        color: white;
+        background-color: black;
+        border-radius: 10px;
     }
 
-
+    
 
 
 </style>
 
-<body style="background-color: rgb(222, 219, 219);">
+<body>
     
     
     <div class="TopInfo">
 
-    <h1 class="Topic">My Portfolio</h1>
+    <h2 class="Topic">My Portfolio</h2>
     
     <p class="box">Home</p>
     <p class="box">About</p>
@@ -166,9 +209,9 @@
     </div>
 
     <div class="Profile">
-        <img src="image/SGI-2016-South_Georgia_(Fortuna_Bay)–King_penguin_(Aptenodytes_patagonicus)_04.jpg" alt="Penguin">
-        <h2>Anshika Verma</h2>
-        <p>I am not so thankful to Sourabh that he has helped me to create my first web page in return of home made chikcen</p>
+        <img src="images\DSC02330.JPG" alt="">
+        <h1 class="profilename">Anshika Verma</h1> 
+        <p class="profilename">I am not so thankful to Sourabh that he has helped me to create my <br> first web page in return of home made chikcen</p>
     </div>
     
 
@@ -176,22 +219,22 @@
         <h1>Projects</h1>
         <div class="frontierbox1">
             <div class="frontierbox11"></div>
-            Project1
-            <p>Thie is my Project 1</p>
+            <h2>Project2</h2>
+            <p>A brief description of the Second project</p>
         </div>
 
         <div class="frontierbox">
             <div class="frontierbox00"></div>
-            Project2
-            <p>This is my Project2</p>
+            <h2>Project1</h2>
+            <p>A brief description of the First project</p>
         </div>
 
      </div>
 
      <div class="Information">
 
-        <h1>Contact</h1>
-        <input claas= "Name" type="Name" id="fname" name="Name" placeholder="Name"><br>
+        <h2 class="Contact">Contact</h2>
+        <input class= "Name" type="Name" id="fname" name="Name" placeholder="Name"><br>
         <input class= "Email" type="Email" id="Email" name="Email" placeholder="Email"><br>
         <input class= "Message" type="Message" id="Message" name="Message" placeholder="Message"><br>
         <input class = "Send" type="submit" value="Send"><br>
